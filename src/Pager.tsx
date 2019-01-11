@@ -10,7 +10,7 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import PropTypes from 'prop-types';
 
-import Page from './Page';
+import Page from './page';
 
 type TitleKeys = 'first' | 'prev' | 'next' | 'last' | 'prevSet' | 'nextSet';
 
