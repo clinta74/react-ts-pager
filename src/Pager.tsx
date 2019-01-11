@@ -163,10 +163,10 @@ export const Pager: React.FunctionComponent<PagerProps> = ({
 
     const renderPages: renderPagesHandler = ({ start, end }) => {
         return range(start, end).map((num, idx) => {
-            const current = num - TITLE_SHIFT;
-            const isActive = (current === current);
+            const newCurrent = num - TITLE_SHIFT;
+            const isActive = (current === newCurrent);
             const onClick: React.MouseEventHandler = () =>
-                handlePageChanged(current);
+                handlePageChanged(newCurrent);
 
             return (
                 <Page
