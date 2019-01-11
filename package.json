@@ -1,6 +1,6 @@
 {
   "name": "@stockx/react-pager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React pager component using StockX styles.",
   "main": "index.js",
   "scripts": {
@@ -40,5 +40,8 @@
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }

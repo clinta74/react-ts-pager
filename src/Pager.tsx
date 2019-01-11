@@ -235,6 +235,7 @@ Pager.propTypes = {
     total: PropTypes.number.isRequired,
     visiblePages: PropTypes.number.isRequired,
     titles: PropTypes.object,
+    className: PropTypes.string,
     onPageChanged: PropTypes.func,
     pageClassName: PropTypes.string,
 };
