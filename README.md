@@ -3,7 +3,7 @@ React pagination control
 
 ## Usage
 ```
-import { Pager } from '@stockx/react-pager';
+import { Pager } from 'react-ts-pager';
 ```
 
 ```

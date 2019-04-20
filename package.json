@@ -1,6 +1,6 @@
 {
   "name": "react-ts-pager",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "React pager component.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -36,7 +36,7 @@
     "@types/react-fontawesome": "^1.6.4",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "typescript": "^3.2.2"
+    "typescript": "^3.4.4"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.12",
@@ -47,6 +47,7 @@
     "prop-types": "^15.6.2"
   },
   "files": [
-    "dist"
+    "dist",
+    "src"
   ]
 }
