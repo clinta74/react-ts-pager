@@ -1,11 +1,12 @@
 {
   "name": "react-ts-pager",
-  "version": "1.0.9",
+  "version": "1.0.11",
   "description": "React pager component.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "prepare": "rm -rf ./dist && npm run build",
+    "prepare": "npm run clean && npm run build",
+    "clean": "rm -rf ./dist",
     "build": "npx tsc"
   },
   "repository": {
