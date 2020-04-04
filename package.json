@@ -37,7 +37,7 @@
     "@types/react-fontawesome": "^1.6.4",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "typescript": "^3.4.4"
+    "typescript": "^3.8.3"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.12",
