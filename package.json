@@ -2,11 +2,11 @@
   "name": "react-ts-pager",
   "version": "2.0.0",
   "description": "React pager component.",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "prepare": "npm run clean && npm run build",
-    "clean": "rm -rf ./dist",
+    "clean": "rm -rf ./clean",
     "test": "tsc --noEmit --pretty",
     "build": "tsc",
     "start": "npx parcel src/example/index.html --open"
@@ -54,7 +54,7 @@
     "react-select": "^3.1.0"
   },
   "files": [
-    "dist",
+    "lib",
     "src"
   ]
 }
