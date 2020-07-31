@@ -156,7 +156,10 @@ export const Pager: React.FunctionComponent<PagerProps> = ({
         container: (provided: any) => ({
             ...provided,
             width: `${mobileWidth}em`,
-            marginTop: '2px',
+        }),
+        control: (provided: any) => ({
+            ...provided,
+            borderRadius: `0`,
         }),
     }
 
