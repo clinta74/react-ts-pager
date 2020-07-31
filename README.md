@@ -8,7 +8,7 @@ import { Pager } from '/react-ts-pager';
 
 ```
     <Pager 
-        current={number} // Current page
+        currentPage={number} // Current page
         total={number} // Total number of items.
         itemsPerPage={number} // The items shown per page.
         visiblePages={number} // Number of page numbered buttons to show.
