@@ -10,7 +10,7 @@ type PageProps = {
 	onClick?: React.MouseEventHandler
 }
 
-const Page: React.FunctionComponent<PageProps> = ({isHidden, isActive,  isDisabled, className, onClick, children}) => {
+export const Page: React.FunctionComponent<PageProps> = ({isHidden, isActive,  isDisabled, className, onClick, children}) => {
 	if (isHidden) return null;
 
 	const fullCss = classNames('page-item mx-1', className, { 
@@ -24,13 +24,3 @@ const Page: React.FunctionComponent<PageProps> = ({isHidden, isActive,  isDisabl
 		</div>
 	);
 };
-
-Page.propTypes = {
-	isHidden:   PropTypes.bool,
-	isActive:   PropTypes.bool,
-	isDisabled: PropTypes.bool,
-	className:  PropTypes.string,
-	onClick:    PropTypes.func,
-};
-
-export default Page;

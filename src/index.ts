@@ -1,8 +1,1 @@
-import { Pager, pageItems } from './pager';
-
-export {
-    Pager,
-    pageItems
-}
-
-export default Pager;
+export { Pager, pageItems, PageChangedHandler } from './pager';
